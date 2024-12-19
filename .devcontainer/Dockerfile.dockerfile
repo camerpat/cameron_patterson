@@ -13,8 +13,6 @@ RUN apt-get update && apt-get install -y nodejs npm
 
 RUN npm install -g @vue/cli
 
-RUN echo "Flask==1.1.2" >> requirements.txt
-
 RUN pip install flask
 
 RUN pip install django
