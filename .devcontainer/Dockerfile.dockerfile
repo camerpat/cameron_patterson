@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.8-slim
+FROM mcr.microsoft.com/devcontainers/universal:2-linux
 
 # Set the working directory in the container
 WORKDIR /app
